@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+form {
+    background-color: steelblue;
+    padding: 10px;
+    border: 2px solid black;
+    width: fit-content;
+    gap: 20px;
+}
+
+form .input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    margin: 20px auto;
+}
+
+.submit-btn button {
+    display: block;
+    padding: 5px;
+    margin: auto;
+}
